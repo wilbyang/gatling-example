@@ -1,4 +1,4 @@
-package me.yangbajing.example.gatling.utils
+package com.menusystems.uno.api.utils
 
 import java.security.MessageDigest
 

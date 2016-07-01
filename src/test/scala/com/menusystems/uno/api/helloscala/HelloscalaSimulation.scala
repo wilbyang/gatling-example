@@ -1,7 +1,8 @@
-package me.yangbajing.example.gatling.helloscala
+package com.menusystems.uno.api.helloscala
 
+import com.menusystems.uno.api.utils.Utils
 import io.gatling.core.Predef._
-import me.yangbajing.example.gatling.utils.Utils
+import Utils
 
 /**
  * Helloscala Site Test Suites
