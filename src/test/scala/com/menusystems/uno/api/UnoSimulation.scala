@@ -22,6 +22,10 @@ class UnoSimulation extends Simulation{
     .exec(http("access venues").get("/venues"))
     .exec(http("access one venue(Langolo)").get("/venues/849157c4-73e8-4523-94a2-058925c27345"))
 
+
+
+
+
   setUp(scn.inject(atOnceUsers(1)).protocols(httpConf))
 
 
