@@ -10,10 +10,13 @@ import scala.concurrent.duration._
   */
 class UnoSimulation extends Simulation{
 
+  val users = csv("users.csv").random
+
 
   val httpConf = http
     .baseURL("https://api.justunoit.com/rest/v1")
       .basicAuth("admin@justunoit.com", "yangbo")
+        //.feed(users) no such function
 
 
   val scn = scenario("Uno Consumer workflow") // A scenario is a chain of requests and pauses
